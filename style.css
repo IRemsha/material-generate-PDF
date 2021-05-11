@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html, body {
+margin: 0;
+font-family: 'Visuelt Pro';
+}
+
+body {
+width: 790px;
+margin: 0 auto;
+position: relative;
+font-family: 'Montserrat', sans-serif;
+}
+
+p, h1, h2, h3, ul, li {
+margin: 0;
+padding: 0;
+}
+
+.main {
+margin: 0 auto;
+width: 80.6%;
+}
+
+.header__logo {
+position: absolute;
+right: 330px;
+top: 91px;
+z-index: 1;
+}
+
+.title {
+border-bottom: 1px solid #e8e8e8;
+width: 100%;
+padding: 33px 0 32px;
+}
+
+.title h1 {
+margin-bottom: 16px;
+font-size: 20px;
+line-height: 30px;
+font-weight: 600;
+text-align: center;
+}
+
+.title h2 {
+font-size: 14px;
+line-height: 20px;
+font-weight: normal;
+letter-spacing: 0.5px;
+text-align: center;
+}
+
+.section .field:first-of-type {
+margin-top: 30px;
+}
+
+.section h1 {
+margin-top: 32px;
+color: #d73f30;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+}
+
+.section h2 {
+margin-top: 10px;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+}
+
+.section h3 {
+margin: 10px 0 20px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-align: center;
+}
+
+.field {
+margin-bottom: 20px;
+}
+
+.field__title {
+display: inline-block;
+margin-bottom: 15px;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.5px;
+}
+
+.field__description {
+padding: 15px 13px 14px 16px;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.5px;
+border-radius: 6.31579px;
+border: solid 1px #e8e8e8;
+}
+
+.description__title {
+display: block;
+font-weight: 700;
+}
+
+.field__description img {
+display: block;
+max-width: 100%;
+margin: 0 auto;
+}
+
+.field__description img:not(:first-child) {
+margin-top: 30px;
+}
+
+.field__description ol {
+list-style: none;
+counter-reset: li;
+margin-top: 8px;
+}
+
+.field__description ol li:not(:last-child) {
+margin-bottom: 8px;
+}
+
+.field__description > ol {
+padding: 0;
+margin: 0;
+}
+
+.field__description > ol ol {
+padding-left: 32px;
+}
